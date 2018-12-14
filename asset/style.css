@@ -1,0 +1,110 @@
+html,
+body {
+    font-size: 20px;
+    font-family: 'Gill Sans', Gill Sans MT;
+    overflow: hidden;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 2.3em;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+a {
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+a#menu-btn {
+    margin-bottom: 8px;
+}
+
+#big-wrapper {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#wrapper {
+    width: 100vw;
+    background-color: #28ae8e;
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburger {
+    margin: 50px;
+    color: #000000;
+}
+
+.lines {
+    width: 1.8em;
+    height: 0.15em;
+    background: #000;
+    border-radius: 5px;
+    margin: 3px;
+    margin-bottom: 5px;
+}
+
+.lines:last-child {
+    margin-bottom: 0px;
+}
+
+
+/* Main content */
+
+#content {
+    margin: 70px 0px 180px 50px;
+    line-height: 15px;
+    color: #ffffff;
+}
+
+
+/* Paragraph style */
+
+#text-menu {
+    margin-left: 3px;
+    font-size: 0.8em;
+}
+
+
+/* Footer style */
+
+#text-footer {
+    text-align: center;
+    font-size: 0.6em;
+    color: #ffffff;
+}
+
+
+/* Span Section on left */
+
+#menu-Section {
+    background: #30333a;
+    width: 30vw;
+    display: none;
+    transition-timing-function: cubic-bezier(0.75, 0.95, 0.58, 1);
+}
+
+#menu-Section>div {
+    margin-left: 50px;
+    margin-top: 250px;
+}
+
+#menu-Section>div a {
+    color: #fffff3;
+    margin-bottom: 25px;
+    text-decoration: none;
+    font-size: 1.14em;
+}
+
+.open-active {
+    display: block !important;
+}
